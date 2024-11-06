@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자바스크립트 프로젝트</title>
+    <link rel="stylesheet" href="./홈페이지.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="../html/d3.png"><!--로고 이미지 들어갈 예정-->
+        </div>
+        <div class="site-info">
+            <h1 id="website-name">웹사이트 이름 (밥약속)</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <img src="../html/d3.png" id="profile"><!--프로필?-->
+            <h1 id="first_h1"><b>(사용자 이름)</b></h1>
+            <hr id="first_hr">
+            <h5><b>소속 학교</b></h5>
+            <h5><b>학번? 학과?</b></h5>
+            <hr id="first_hr">
+
+            <h2 id="name">Category</h2>
+            <ul class="category_first">
+                <li>
+                    <span>학교별</span>
+                    <ul class="category_ul">
+                        <li>- 연암공과대학교</li>
+                        <li>- 국립경상대학교</li>
+                        <li>- 진주보건대학교</li>
+                    </ul>
+                </li>
+                <li>
+                    <span>학과별</span>
+                    <ul class="category_ul">
+                        <li>- 공대</li>
+                        <li>- 사범대</li>
+                        <li>- 인문사회대</li>
+                        <li>- 보건대</li>
+                        <li>- 자연과학대</li>
+                    </ul>
+                </li>
+                <li>
+                    <span>학번별</span>
+                    <ul class="category_ul">
+                        <li>- 19학번</li>
+                        <li>- 20학번</li>
+                        <li>- 21학번</li>
+                        <li>- 22학번</li>
+                        <li>- 23학번</li>
+                        <li>- 24학번</li>
+                    </ul>
+                </li>
+                <li>
+                    <span>날짜/시간별</span>
+                    <ul class="category_ul">
+                        <li>- 평일 점심</li>
+                        <li>- 평일 저녁</li>
+                        <li>- 주말 점심</li>
+                        <li>- 주말 저녁</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div id="second">
+            <h2 id="board-title">전체 게시판</h2>
+            <div id="third">
+                <ul class="list third_ul">
+                    <hr id="third_hr">
+                    <li class="third_li">
+                        <b class="post-number">001</b>
+                        <a class="post-title" href="">1번째 게시글 제목</a><!--첫번째 게시글 파일 경로 작성해야함-->
+                        <span class="date">2024.11.7</span> <!--게시한 날짜-->
+                    </li>
+                    <hr id="third_hr">
+                    <li class="third_li">
+                        <b class="post-number">002</b>
+                        <a class="post-title" href="">2번째 게시글 제목</a><!--첫번째 게시글 파일 경로 작성해야함-->
+                        <span class="date">2024.11.8</span>
+                    </li>
+                    <hr id="third_hr">
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
